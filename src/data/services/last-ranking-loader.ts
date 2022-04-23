@@ -1,5 +1,5 @@
 import { LastRankingLoader } from "@/domain/usecases";
-import { LoadLastRankingRepository } from "@/data/contracts";
+import { LoadLastRankingRepository } from "@/data/protocols";
 import { RankingScore } from "@/domain/entities";
 import { RankingUnavailableException } from "@/domain/exceptions";
 
